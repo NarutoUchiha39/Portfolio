@@ -1,0 +1,35 @@
+.Navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    z-index: 999;
+   
+    .wrapper
+    {
+        z-index: 999;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:100%;
+        width: 80%;
+        font-size: 20px;
+        .links
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .social
+            {
+                margin: 15px;
+                
+            }
+        }
+        
+    }
+   
+}

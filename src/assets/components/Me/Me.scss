@@ -1,0 +1,58 @@
+.Division
+{
+    height: calc(100vh - 100px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(180deg,#0c0c1d,#111132);
+    .textContainer
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        width: 132%;
+
+        h2
+        {
+            letter-spacing: 10px;
+        }
+
+        h1{
+            font-size: 60px;
+        }
+
+        .extra
+        {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top:-5%
+        }
+
+        .latest_work,.contact_me
+        {
+            border: 1px solid white;
+            border-radius: 5%;
+            padding: 10px;
+            margin: 20px;
+        }
+    }
+
+    .image_container
+    {
+        display: flex;
+        justify-content: center;
+        
+      
+        img
+        {
+            position: relative;
+            height: calc(100vh - 100px);
+        }
+        
+    }
+}
+
