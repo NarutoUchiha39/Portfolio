@@ -3,6 +3,9 @@ import './FeaturedWork.scss'
 import {motion,useScroll,useSpring} from 'framer-motion'
 import { useRef } from 'react'
 import KisanSevak from "../../images/kisanSevak.png"
+import EliteSolution from "../../images/gg.png"
+import QuizPortal from "../../images/QuizPortal.png"
+import AutomatedPeopleCounter from "../../images/AutomatedPeopleCounter.png"
 const Projects = [
     
      {   
@@ -10,18 +13,46 @@ const Projects = [
             Name:"Kisan Sevak",
             img:KisanSevak,
             TechStack:"Next.js, React, Tensorflow, MongoDB, ReactNative",
-            Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolores ducimus, et minus ipsam beatae repellendus adipisci sit ex dolor error. Error, animi? Accusamus eos harum magnam tempora. Sapiente, illum!"
+            Description:"An integrated System consisting of a Mobile App, Website and a robust machine learning model to provide farmers with complete ecosystem to provide cure to various plant diseases. The robust Machine Learning model helps in accurate prediction of plant diseases while the website, written Nextjs, is for the experts to provide prescription in case the model fails, ensuring that the farmers get solution"
         
         
      },
     {   
             id:2,
             Name:"Elite Solutions",
-            img:KisanSevak,
+            img:EliteSolution,
             TechStack:"Laravel , MySQL",
-            Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolores ducimus, et minus ipsam beatae repellendus adipisci sit ex dolor error. Error, animi? Accusamus eos harum magnam tempora. Sapiente, illum!"
+            Description:" A Website made for the students by the students using Laravel framework. The Website helps aspiring candidates to prepare for coding interviews by providing them solutions to leetcode problems . Skills like markdown manipulation, using leetcode api to fetch problems and  using file system to store solutions to problems were  explored"
         
-    }
+    },
+    
+    {   
+        id:3,
+        Name:"Automated System Of People Tracking",
+        img:AutomatedPeopleCounter,
+        TechStack:"React , MongoDB, Torch, Express",
+        Description:"An automated system for counting the total number of people entering and exiting a room using OpenCV and Torch. The robust YOLO model is used to track and count people as they enter and exit room. A website written in react provides a dashboard that provides real time display of count of people. "
+    
+},
+
+{   
+    id:4,
+    Name:"Space Invader",
+    img:EliteSolution,
+    TechStack:"Python",
+    Description:"An automated system for counting the total number of people entering and exiting a room using OpenCV and Torch. The robust YOLO model is used to track and count people as they enter and exit room. A website written in react provides a dashboard that provides real time display of count of people. "
+
+},
+
+{   
+    id:4,
+    Name:"Quiz Portal",
+    img:QuizPortal,
+    TechStack:"Java",
+    Description:"An automated system for counting the total number of people entering and exiting a room using OpenCV and Torch. The robust YOLO model is used to track and count people as they enter and exit room. A website written in react provides a dashboard that provides real time display of count of people. "
+
+}
+    
     
     ]
 
