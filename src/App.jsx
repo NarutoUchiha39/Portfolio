@@ -11,7 +11,7 @@ function App() {
   return (
     <>
 
-      <section>
+      <section id='Homepage'>
         <Navbar/>
         <Me/>
       </section>
@@ -19,7 +19,7 @@ function App() {
         <Parallax/>
       </section>
       <FeaturedWorks/>
-      <section><Contact/></section>
+      <section id='Contact Me'><Contact/></section>
     </>
 
   )

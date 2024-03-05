@@ -4,6 +4,7 @@ import {motion,useScroll,useSpring} from 'framer-motion'
 import { useRef } from 'react'
 import KisanSevak from "../../images/kisanSevak.png"
 import EliteSolution from "../../images/gg.png"
+import SpaceInvader from "../../images/SpaceInvader(2).png"
 import QuizPortal from "../../images/QuizPortal.png"
 import AutomatedPeopleCounter from "../../images/AutomatedPeopleCounter.png"
 const Projects = [
@@ -13,6 +14,7 @@ const Projects = [
             Name:"Kisan Sevak",
             img:KisanSevak,
             TechStack:"Next.js, React, Tensorflow, MongoDB, ReactNative",
+            link:"https://github.com/NarutoUchiha39/kisan_sevak.git",
             Description:"An integrated System consisting of a Mobile App, Website and a robust machine learning model to provide farmers with complete ecosystem to provide cure to various plant diseases. The robust Machine Learning model helps in accurate prediction of plant diseases while the website, written Nextjs, is for the experts to provide prescription in case the model fails, ensuring that the farmers get solution"
         
         
@@ -22,6 +24,7 @@ const Projects = [
             Name:"Elite Solutions",
             img:EliteSolution,
             TechStack:"Laravel , MySQL",
+            link:"https://github.com/NarutoUchiha39/EliteSolutions.git",
             Description:" A Website made for the students by the students using Laravel framework. The Website helps aspiring candidates to prepare for coding interviews by providing them solutions to leetcode problems . Skills like markdown manipulation, using leetcode api to fetch problems and  using file system to store solutions to problems were  explored"
         
     },
@@ -30,6 +33,7 @@ const Projects = [
         id:3,
         Name:"Automated System Of People Tracking",
         img:AutomatedPeopleCounter,
+        link:"https://github.com/NarutoUchiha39/react_backend_final",
         TechStack:"React , MongoDB, Torch, Express",
         Description:"An automated system for counting the total number of people entering and exiting a room using OpenCV and Torch. The robust YOLO model is used to track and count people as they enter and exit room. A website written in react provides a dashboard that provides real time display of count of people. "
     
@@ -38,7 +42,8 @@ const Projects = [
 {   
     id:4,
     Name:"Space Invader",
-    img:EliteSolution,
+    img:SpaceInvader,
+    link:"https://github.com/NarutoUchiha39/SpaceInvaders.git",
     TechStack:"Python",
     Description:"A  game written in python using  pygame . The players has a  ship  that have  to dodge bullets from the enemy ships. As the time increases the speed of bullets and number of enemy ships increases thus increasing the difficulty of the game. The game fosters the use of databases and files along with object oriented concepts in python  "
 
@@ -48,6 +53,7 @@ const Projects = [
     id:5,
     Name:"Quiz Portal",
     img:QuizPortal,
+    link:"https://github.com/NarutoUchiha39/Examination-Portal.git",
     TechStack:"Java",
     Description:"An automated system for counting the total number of people entering and exiting a room using OpenCV and Torch. The robust YOLO model is used to track and count people as they enter and exit room. A website written in react provides a dashboard that provides real time display of count of people. "
 
@@ -85,7 +91,7 @@ function Works({item}){
                         <i className="fa-brands fa-github"></i>
                         </div>
                         <button>
-                            View Source Code
+                           <a href={item.link}>View Source Code</a> 
                         </button>
                     </div>
             </ul>

@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 function Links() {
-  const items = ["Homepage","Projects","Contact Me","About Me"]
+  const items = ["Homepage","Projects","Contact Me"]
   const variants = {
 
     normal:{
@@ -20,7 +20,7 @@ function Links() {
     <div className='links'>
       {
           items.map((item)=>(
-          <motion.a href={`#${item}`} key={item} variants={variants} initial="normal" whileHover="Onhover">{item}</motion.a>
+          <motion.a href={`#${item}`} key={item} variants={variants} initial="normal" whileHover="Onhover" style={{color:'black',textDecoration:'none'}}>{item}</motion.a>
           ))
        }
     </div>

@@ -27,11 +27,11 @@ function Me() {
                <motion.h1 variants={variants}>Backend developer </motion.h1>
                <motion.div className="extra" variants={variants}>
                     <motion.div className="latest_work">
-                            See Latest Work
+                    <a href={`#Projects`}>See Latest Work</a>  
                     </motion.div>
 
-                    <motion.div className="contact_me" variants={variants}>
-                            Contact Me
+                    <motion.div className="contact_me" variants={variants} onClick={()=>{}}>
+                          <a href={`#Contact Me`}>Contact Me</a>  
                     </motion.div>
                </motion.div>
             </motion.div>

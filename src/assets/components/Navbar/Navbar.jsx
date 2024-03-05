@@ -13,15 +13,19 @@ export default function Navbar() {
               <SideBar/>
               <div className="links">
                   <div className="social github">
-                        <i className="fa-brands fa-github"></i>
+                        <a href="https://github.com/NarutoUchiha39/"><i className="fa-brands fa-github"></i></a> 
                   </div>
                   
                   <div className="social linked_in">
-                        <i className="fa-brands fa-linkedin"></i>
+                      <a href="https://www.linkedin.com/in/anirudh-ta-a57107263"><i className="fa-brands fa-linkedin"></i></a>  
                   </div>
 
                   <div className="social instagram">
-                        <i className="fa-brands fa-instagram"></i>
+                        
+                          <a href="https://www.instagram.com/narutouchiha392">
+                          <i className="fa-brands fa-instagram"></i>
+                          </a>
+                        
                   </div>
               </div>
 
