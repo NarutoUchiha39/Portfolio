@@ -40,12 +40,12 @@ const Projects = [
     Name:"Space Invader",
     img:EliteSolution,
     TechStack:"Python",
-    Description:"An automated system for counting the total number of people entering and exiting a room using OpenCV and Torch. The robust YOLO model is used to track and count people as they enter and exit room. A website written in react provides a dashboard that provides real time display of count of people. "
+    Description:"A  game written in python using  pygame . The players has a  ship  that have  to dodge bullets from the enemy ships. As the time increases the speed of bullets and number of enemy ships increases thus increasing the difficulty of the game. The game fosters the use of databases and files along with object oriented concepts in python  "
 
 },
 
 {   
-    id:4,
+    id:5,
     Name:"Quiz Portal",
     img:QuizPortal,
     TechStack:"Java",

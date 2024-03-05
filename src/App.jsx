@@ -1,4 +1,5 @@
 import './App.scss'
+import Contact from './assets/components/Contact/Contact';
 import FeaturedWorks from './assets/components/FeaturedWorks/FeaturedWorks';
 import Me from './assets/components/Me/Me';
 import Navbar from './assets/components/Navbar/Navbar';
@@ -18,7 +19,7 @@ function App() {
         <Parallax/>
       </section>
       <FeaturedWorks/>
-      <section>Contact</section>
+      <section><Contact/></section>
     </>
 
   )
