@@ -1,3 +1,4 @@
+
 .Contact
 {
     display: grid;
@@ -33,6 +34,23 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
+        .wrapper
+        {
+            position: absolute;
+            top:32vh;
+            .svg
+            {
+                margin: auto;    
+                svg
+                {
+                    path{
+
+                        stroke-width: 1px;
+                    }
+                }
+            }
+        }
         form
         {
             .inputs
@@ -77,3 +95,4 @@
     }
 
 }
+
