@@ -1,6 +1,6 @@
 import React from 'react'
 import './Me.scss'
-import Me1 from '../../images/hero.png'
+import Me1 from '../../images/Me.png'
 import {motion} from 'framer-motion'
 function Me() {
     const variants={
@@ -36,7 +36,7 @@ function Me() {
                </motion.div>
             </motion.div>
             <motion.div variants={variants} className="image_container">
-                <motion.img src={Me1} />
+                <motion.img src={Me1} style={{height:"120%",position:'relative',top:'-27vh'}}/>
             </motion.div>
 
         </motion.div>
